@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-checklist_core = { path = "../checklist_core" }
+checklist_core = { git = "https://github.com/qchen-fdii-cardc/checklist_core.git", branch = "main" }
 axum = { version = "0.8", features = ["macros"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
 serde = { version = "1.0", features = ["derive"] }

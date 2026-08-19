@@ -202,6 +202,7 @@ checksum = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
 [[package]]
 name = "checklist_core"
 version = "0.1.0"
+source = "git+https://github.com/qchen-fdii-cardc/checklist_core.git?branch=main#84c6f1a01dd2fffd4f244bfe19ac1a655e372742"
 dependencies = [
  "base64",
  "chrono",
